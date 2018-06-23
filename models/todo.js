@@ -5,6 +5,7 @@ var schema = mongoose.Schema({
     done: Boolean
 });
 
-var Todo = mongoose.model('todo', schema);
+// task = db collection
+var Todo = mongoose.model('tasks', schema);
 
-module.export = Todo;
+module.exports = Todo;
