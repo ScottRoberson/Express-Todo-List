@@ -28,6 +28,7 @@ router.post('/add', function(req, res){
    });
 });
 
+
 //Read
 router.get('/all', function(req, res){
     Todo.find({}).exec(function(err, tasks){
